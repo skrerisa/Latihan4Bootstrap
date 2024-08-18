@@ -1,0 +1,112 @@
+
+header{
+    font-size: 30px;
+}
+
+section:before {
+    content: "";
+    display: block;
+    height: 100px; /* Sesuaikan dengan tinggi navbar */
+    margin-top: -100px; /* Menarik elemen ke atas */
+    visibility: hidden; /* Pseudo-element ini tidak terlihat */
+}
+
+body{
+    padding-top: 80px;
+}
+
+.nav-link
+{
+    color: rgb(255, 255, 255);
+}
+
+.pilihan 
+{
+    padding: 10px;
+}
+
+.background
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url("gambarr/msknpdg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    margin: 0;
+    height: 900px;
+    color: white;
+    position: relative;
+}
+
+.textbackground
+{
+    margin: 150px;
+    padding: 20px;
+    h1{
+        font-size: 80px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    p{
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
+    }
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    /* Warna putih untuk garis icon */
+}
+
+.background2
+{
+    display: flex;
+    flex-direction: column;
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    margin: 0;
+    height: 860px;
+    color: white;
+    position: relative;
+}
+
+.background3
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url("gambarr/rmh.avif");
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    margin: 0;
+    height: 860px;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.background4
+{
+    display: flex;
+    flex-direction: column;
+background-color: rgb(119, 60, 146);
+    background-size: cover;
+    background-position: center;
+    background-attachment:scroll;
+    margin: 0;
+    height: 860px;
+    color: white;
+    position: relative;
+}
+
+.white{
+    color: aliceblue;
+}
+
+.nav-link.active 
+{
+    color: rgb(247, 0, 255);
+    font-weight: bold;
+}
